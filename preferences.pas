@@ -1,0 +1,55 @@
+unit preferences;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  Buttons;
+
+type
+
+  { Tformpref }
+
+  Tformpref = class(TForm)
+    BitBtn1: TBitBtn;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label1: TLabel;
+    Label4: TLabel;
+    procedure BitBtn1Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end; 
+
+var
+  formpref: Tformpref;
+
+implementation
+
+uses main;
+
+{$R *.lfm}
+
+{ Tformpref }
+
+procedure Tformpref.BitBtn1Click(Sender: TObject);
+begin
+  DESkey:=Edit1.Text;
+  portnumber:=Edit2.Text;
+  portnumberchanged:=True;
+  Close;
+end;
+
+procedure Tformpref.FormShow(Sender: TObject);
+begin
+  Edit1.Text:=DESkey;
+  Edit2.Text:=portnumber;
+end;
+
+end.
+

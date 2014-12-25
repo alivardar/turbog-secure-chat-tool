@@ -1,0 +1,24 @@
+object formabout: Tformabout
+  Left = 428
+  Height = 240
+  Top = 321
+  Width = 320
+  BorderStyle = bsDialog
+  Caption = 'About'
+  ClientHeight = 240
+  ClientWidth = 320
+  Position = poDesktopCenter
+  LCLVersion = '0.9.29'
+  object BitBtn1: TBitBtn
+    Left = 229
+    Height = 30
+    Top = 192
+    Width = 75
+    Caption = '&OK'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+end

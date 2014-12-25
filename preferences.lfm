@@ -1,0 +1,55 @@
+object formpref: Tformpref
+  Left = 397
+  Height = 128
+  Top = 286
+  Width = 295
+  BorderStyle = bsDialog
+  Caption = 'Preferences'
+  ClientHeight = 128
+  ClientWidth = 295
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '0.9.29'
+  object BitBtn1: TBitBtn
+    Left = 216
+    Height = 30
+    Top = 87
+    Width = 75
+    Caption = '&OK'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 144
+    Height = 21
+    Top = 32
+    Width = 144
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 53
+    Top = 19
+    Width = 111
+    Caption = 'Encryption key :'#13#10'It is must be same with'#13#10'other client and'#13#10'Max. 8 character'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 14
+    Top = 103
+    Width = 106
+    Caption = 'Communication Port : '
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 144
+    Height = 21
+    Top = 96
+    Width = 56
+    TabOrder = 2
+  end
+end

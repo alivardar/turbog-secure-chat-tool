@@ -1,0 +1,38 @@
+unit about;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Buttons;
+
+type
+
+  { Tformabout }
+
+  Tformabout = class(TForm)
+    BitBtn1: TBitBtn;
+    procedure BitBtn1Click(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end; 
+
+var
+  formabout: Tformabout;
+
+implementation
+
+{$R *.lfm}
+
+{ Tformabout }
+
+procedure Tformabout.BitBtn1Click(Sender: TObject);
+begin
+  Close;
+end;
+
+end.
+
