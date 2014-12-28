@@ -15,3 +15,8 @@ DES : http://www.cityinthesky.co.uk/cryptography.html
 Synapse already included in source code directory. You have to just install cryptography components for compile.
 
 This project moved from http://www.turbog.com
+
+![Alt text](http://www.turbog.com/wp-content/uploads/2012/04/turbotalker.png "Optional title")
+
+
+
