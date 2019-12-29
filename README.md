@@ -16,7 +16,7 @@ Synapse already included in source code directory. You have to just install cryp
 
 This project moved from http://www.turbog.com
 
-![Alt text](http://www.turbog.com/wp-content/uploads/2012/04/turbotalker.png "Optional title")
+![Alt text](http://www.mdm5m.com/wp-content/uploads/2012/04/turbotalker.png "Optional title")
 
 
 
